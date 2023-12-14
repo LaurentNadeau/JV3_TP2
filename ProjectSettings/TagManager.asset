@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - ground
+  - 'Statuette 1 '
+  - 'Statuette 2 '
+  - Statuette 3
   layers:
   - Default
   - TransparentFX
@@ -12,9 +15,9 @@ TagManager:
   - ground
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Statuette 1
+  - Statuette 2
+  - Statuette 3
   - 
   - 
   - 
