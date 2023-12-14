@@ -4,20 +4,19 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - ground
-  - Statuette3
-  - Statuette2
-  - Statuette1
+  - Statuette 1
+  - Statuette 2
+  - Statuette 3
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - ground
+  - 
   - Water
   - UI
-  - Statuette1
-  - Statuette2
-  - Statuette3
+  - Statuette 1
+  - Statuette 2
+  - Statuette 3
   - 
   - 
   - 
