@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Statuette
+  - Statuette 1
+  - Statuette 2
+  - Statuette 3
   layers:
   - Default
   - TransparentFX
