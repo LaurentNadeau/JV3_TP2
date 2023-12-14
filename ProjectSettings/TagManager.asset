@@ -7,6 +7,7 @@ TagManager:
   - Statuette 1
   - Statuette 2
   - Statuette 3
+  - MainJoueurDroite
   layers:
   - Default
   - TransparentFX
