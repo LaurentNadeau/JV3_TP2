@@ -5,7 +5,7 @@ using TMPro;
 
 public class RésultatsFin : MonoBehaviour
 {
-    [SerializeField] private PlayerStats health;
+    //[SerializeField] private PlayerStats health;
 
      
 

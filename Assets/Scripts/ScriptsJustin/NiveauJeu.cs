@@ -6,7 +6,7 @@ using TMPro;
 public class NiveauJeu : MonoBehaviour
 {
 
-     [SerializeField] private PlayerStats health;
+    
 
      
 
@@ -70,10 +70,7 @@ public class NiveauJeu : MonoBehaviour
             _GestionScenes.SceneFinGagnant(); 
         }
 
-        if( PlayerStats.Instance.Health == 0){
-             _GestionScenes.SceneFin();
-        }
-
+       
         
     }
 
