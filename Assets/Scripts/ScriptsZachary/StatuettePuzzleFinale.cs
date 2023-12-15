@@ -13,6 +13,14 @@ public class StatuettePuzzleFinale : MonoBehaviour
     [SerializeField] private GameObject _StatuetteB;
     [SerializeField] private GameObject _StatuetteC;
 
+    [SerializeField] private Animator anim_LevierA;
+    [SerializeField] private Animator anim_LevierB;
+    [SerializeField] private Animator anim_LevierC;
+
+    [SerializeField] private Animator anim_StatuetteA;
+    [SerializeField] private Animator anim_StatuetteB;
+    [SerializeField] private Animator anim_StatuetteC;
+
     [SerializeField] private Collider _MainsJoueur;
 
     // Start is called before the first frame update
