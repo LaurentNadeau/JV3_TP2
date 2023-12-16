@@ -1,0 +1,34 @@
+{
+    "name": "MenuAudio",
+    "maps": [
+        {
+            "name": "Menu",
+            "id": "ad7375ce-0402-40c2-a580-db53a558d004",
+            "actions": [
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "c17cfaf8-e07f-433f-9f80-cfcffa06ec2b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "04e2b297-eaa5-45ac-9c86-89bec3adce2b",
+                    "path": "<Keyboard>/m",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
