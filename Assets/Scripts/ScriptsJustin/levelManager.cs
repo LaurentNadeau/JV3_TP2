@@ -45,11 +45,7 @@ public class levelManager : MonoBehaviour
         sceneLoad.allowSceneActivation = false;
         _loaderCanvas.SetActive(true);
 
-        do{
-            await Task.Delay(100);
-            _progressBar.fillAmount = sceneLoad.progress;
-        } while(sceneLoad.progress < 0.9f);
-
+       
         sceneLoad.allowSceneActivation = true;
         _loaderCanvas.SetActive(false);
     }
