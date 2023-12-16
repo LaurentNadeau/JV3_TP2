@@ -10,16 +10,36 @@ public class StatuettePuzzleFinale : MonoBehaviour
     /*[SerializeField] private GameObject _LevierC;*/
     /*[SerializeField] private Collider _MainsJoueur;*/
 
+    //[Header("Mettre les statuettes de l'inventaire du joueur ici.")]
+    //[SerializeField] private GameObject _statuetteDansInventaire1;
+    //[SerializeField] private GameObject _statuetteDansInventaire2;
+    //[SerializeField] private GameObject _statuetteDansInventaire3;
+
+    [Header("Trigger (Socket) pour tenir la statuette.")]
+    [Space(5)]
+
     [SerializeField] private GameObject _statuetteASocket;
     [SerializeField] private GameObject _statuetteBSocket;
     [SerializeField] private GameObject _statuetteCSocket;
+
+    [Header("Rondelles d'activation avant déclenchent.")]
+    [Space(2)]
     [SerializeField] private GameObject _RondelleActivationA;
     [SerializeField] private GameObject _RondelleActivationB;
     [SerializeField] private GameObject _RondelleActivationC;
 
+
+
+    [Header("Les statuettes gelé pour après l'activation de leur sockets.")]
+    [Space(5)]
+
     [SerializeField] private GameObject _statuetteADansActivateur;
     [SerializeField] private GameObject _statuetteBDansActivateur;
     [SerializeField] private GameObject _statuetteCDansActivateur;
+
+
+    [Header("Qu'elle statuette est active dans la machine.")]
+    [Space(5)]
 
     [SerializeField] private bool _statuetteAActive = false;
 
@@ -27,30 +47,42 @@ public class StatuettePuzzleFinale : MonoBehaviour
 
     [SerializeField] private bool _statuetteCActive = false;
 
-    /*[SerializeField] private Animator _statuetteAAnimator;
+
+    [Header("Animator pour les sockets.")]
+    [Space(5)]
+
+    [SerializeField] private Animator _statuetteAAnimator;
     [SerializeField] private Animator _statuetteBAnimator;
-    [SerializeField] private Animator _statuetteCAnimator;*/
+    [SerializeField] private Animator _statuetteCAnimator;
+
+    [Header("Puzzle complet pour l'animation finale.")]
+    [Space(5)]
 
     [SerializeField] private GameObject _statuetteActivateurComplet;
     [SerializeField] private Animator _statuetteActivateurCompletAnimator;
 
+    void Start()
+    {
+        
+    }
+
     // Update is called once per frame
     void Update()
     {
-
+        PuzzleStatuetteVerification();
     }
 
-    private void StatuetteAActif()
+    public void StatuetteAActif()
     {
         _statuetteAActive = true;
     }
 
-    private void StatuetteBActif()
+    public void StatuetteBActif()
     {
         _statuetteBActive = true;
     }
 
-    private void StatuetteCActif()
+    public void StatuetteCActif()
     {
         _statuetteCActive = true;
     }
@@ -93,6 +125,8 @@ public class StatuettePuzzleFinale : MonoBehaviour
     {
         _RondelleActivationA.SetActive(false);
         _statuetteASocket.SetActive(false);
+        _statuetteAAnimator.SetBool("degageA", true);
+        
         _statuetteADansActivateur.SetActive(true);
     }
 
@@ -100,6 +134,8 @@ public class StatuettePuzzleFinale : MonoBehaviour
     {
         _RondelleActivationB.SetActive(false);
         _statuetteBSocket.SetActive(false);
+        _statuetteBAnimator.SetBool("degageB", true);
+        
         _statuetteBDansActivateur.SetActive(true);
     }
 
@@ -107,6 +143,8 @@ public class StatuettePuzzleFinale : MonoBehaviour
     {
         _RondelleActivationC.SetActive(false);
         _statuetteCSocket.SetActive(false);
+        _statuetteCAnimator.SetBool("degageC", true);
+        
         _statuetteCDansActivateur.SetActive(true);
     }
 
