@@ -7,6 +7,7 @@ TagManager:
   - Statuette 1
   - Statuette 2
   - Statuette 3
+  - MainJoueurDroite
   layers:
   - Default
   - TransparentFX
@@ -38,8 +39,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - XR Joueur
+  - XR Objets
   m_SortingLayers:
   - name: Default
     uniqueID: 0
