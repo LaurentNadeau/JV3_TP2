@@ -15,6 +15,14 @@ EditorBuildSettings:
     path: Assets/Scenes/SceneJanie/SceneJanie.unity
     guid: 28834bd0e310b0148903314899433e1b
   - enabled: 1
+    path: Assets/Scenes/SceneJustin/niveau3.unity
+    guid: 3831c852836564163a07f6f6ab114943
+  - enabled: 1
+    path: Assets/Scenes/SceneZachary/SceneZachary.unity
+    guid: 0a1edc12e6b329544a2803dfdee33a66
+  - enabled: 1
+    path: Assets/Scenes/SceneJustin/menuFin.unity
+    guid: 12bbd27169d6d4611b426d4a4acfb7dc
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: cceff63a550b45a4e9a5eebc0c0f3597,
       type: 2}
