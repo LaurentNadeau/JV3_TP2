@@ -407,10 +407,11 @@ AudioSource:
   m_GameObject: {fileID: 44826483}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -1149043862655284667, guid: 772589bee30927242a71386a9f9c4c95,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 6c0d6da52b9c1364ea36a25461dddb1c, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.496
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1188,10 +1189,11 @@ AudioSource:
   m_GameObject: {fileID: 270571922}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -1149043862655284667, guid: 772589bee30927242a71386a9f9c4c95,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: a1c513a3c740910468fea14a88f5111f, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1432,10 +1434,11 @@ AudioSource:
   m_GameObject: {fileID: 375090130}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -2300068300856860040, guid: 772589bee30927242a71386a9f9c4c95,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.517
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2341,10 +2344,11 @@ AudioSource:
   m_GameObject: {fileID: 791407033}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -1149043862655284667, guid: 772589bee30927242a71386a9f9c4c95,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 9c41d9708c312d7479dca89845be6b02, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.488
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2723,6 +2727,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838326781}
   m_CullTransparentMesh: 1
+--- !u!1 &860639842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 860639843}
+  m_Layer: 0
+  m_Name: GestionAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &860639843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860639842}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 540.2086, y: 299.1418, z: 363.54596}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &888802620
 GameObject:
   m_ObjectHideFlags: 0
@@ -3234,10 +3269,11 @@ AudioSource:
   m_GameObject: {fileID: 986359695}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -2300068300856860040, guid: 772589bee30927242a71386a9f9c4c95,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.513
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3419,10 +3455,11 @@ AudioSource:
   m_GameObject: {fileID: 986359695}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -1149043862655284667, guid: 772589bee30927242a71386a9f9c4c95,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: e5c77408494862c4ebb4a837055c0bde, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.517
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4415,7 +4452,8 @@ AudioSource:
   m_GameObject: {fileID: 1472137168}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 1661914327264966762, guid: 772589bee30927242a71386a9f9c4c95,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 97caf2a7c33da4748945d8effb3fac86, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.1
@@ -4684,7 +4722,19 @@ MonoBehaviour:
         m_CallState: 2
   aLaFinDuTemps:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 537387053}
+        m_TargetAssemblyTypeName: GestionScene, Assembly-CSharp
+        m_MethodName: Perdu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1924018366
 Transform:
   m_ObjectHideFlags: 0

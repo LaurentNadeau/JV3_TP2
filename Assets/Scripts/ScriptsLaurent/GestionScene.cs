@@ -5,16 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class GestionScene : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void Perdu(){
+        SceneManager.LoadScene("MenuFin");
     }
 
     public void SceneSuivante(){
