@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GestionScene : MonoBehaviour
 {
     public void Perdu(){
-        SceneManager.LoadScene("MenuFin");
+        SceneManager.LoadScene("menuFin");
     }
 
     public void SceneSuivante(){
