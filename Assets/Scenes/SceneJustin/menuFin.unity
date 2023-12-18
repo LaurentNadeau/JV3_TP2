@@ -265,6 +265,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 175795386}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &191491742 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8948356935298758959, guid: ffa0046ee8deee2419dacface1f107d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 468580663}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &294517280
 GameObject:
   m_ObjectHideFlags: 0
@@ -3152,6 +3158,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GestionnaireMenuSons
       objectReference: {fileID: 0}
+    - target: {fileID: 7276776194321228311, guid: 07f25c757b56e4f5b948a5c7b8b22cc1,
+        type: 3}
+      propertyPath: _PanneauSon
+      value: 
+      objectReference: {fileID: 191491742}
     - target: {fileID: 9143329139090779642, guid: 07f25c757b56e4f5b948a5c7b8b22cc1,
         type: 3}
       propertyPath: m_RootOrder
