@@ -117,6 +117,7 @@ GameObject:
   - component: {fileID: 1143955996367271295}
   - component: {fileID: 3672557588909455955}
   - component: {fileID: 6727470637598803385}
+  - component: {fileID: 5195971088212166400}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -132,7 +133,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6321990195521546876}
   m_LocalRotation: {x: -0, y: -0, z: 0.22256677, w: 0.97491753}
-  m_LocalPosition: {x: -21.843359, y: 4.5470133, z: 39.72}
+  m_LocalPosition: {x: -21.843359, y: 4.547013, z: 39.72}
   m_LocalScale: {x: 0.63607764, y: 2.9572523, z: 0.63607764}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -212,6 +213,27 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!95 &5195971088212166400
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6321990195521546876}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 15b8e99a42ee042c3967af54d533680e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &9083327885232545764
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,5 +265,5 @@ Transform:
   - {fileID: 8477645093762213365}
   - {fileID: 8932832440052707553}
   m_Father: {fileID: 0}
-  m_RootOrder: 45
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
