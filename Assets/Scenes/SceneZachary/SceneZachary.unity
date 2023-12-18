@@ -2053,6 +2053,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI_infoJoueur
       objectReference: {fileID: 0}
+    - target: {fileID: 789070541722278260, guid: 07010633510448c4093e1cb40d74d1fc,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9933080a91477df45bc0a74b10bf0684,
+        type: 3}
+    - target: {fileID: 860247719488680030, guid: 07010633510448c4093e1cb40d74d1fc,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9933080a91477df45bc0a74b10bf0684,
+        type: 3}
     - target: {fileID: 1581835801521208847, guid: 07010633510448c4093e1cb40d74d1fc,
         type: 3}
       propertyPath: m_text
@@ -2075,6 +2087,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5116062986155264814, guid: 07010633510448c4093e1cb40d74d1fc,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9933080a91477df45bc0a74b10bf0684,
+        type: 3}
     - target: {fileID: 6550929562816520745, guid: 07010633510448c4093e1cb40d74d1fc,
         type: 3}
       propertyPath: m_Pivot.x
