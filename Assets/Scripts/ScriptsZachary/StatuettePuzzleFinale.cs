@@ -68,6 +68,11 @@ public class StatuettePuzzleFinale : MonoBehaviour
     [SerializeField] private GameObject _statuetteActivateurComplet;
     [SerializeField] private Animator _statuetteActivateurCompletAnimator;
 
+    [Header("Son du mur d'activation quand activé.")]
+    [Space(5)]
+
+    [SerializeField] private GameObject _murActivationSon;
+
     void Start()
     {
         _statuetteA = GameObject.FindWithTag("Statuette 1");
@@ -105,6 +110,7 @@ public class StatuettePuzzleFinale : MonoBehaviour
             if(_statuetteAActive == true && _statuetteBActive == true && _statuetteCActive == true)
             {
                 _statuetteActivateurCompletAnimator.SetBool("PuzzleTermine", true);
+                _murActivationSon.SetActive(true);
             }
         }
 
@@ -115,6 +121,7 @@ public class StatuettePuzzleFinale : MonoBehaviour
             if(_statuetteAActive == true && _statuetteBActive == true && _statuetteCActive == true)
             {
                 _statuetteActivateurCompletAnimator.SetBool("PuzzleTermine", true);
+                _murActivationSon.SetActive(true);
             }
         }
 
@@ -125,6 +132,7 @@ public class StatuettePuzzleFinale : MonoBehaviour
             if(_statuetteAActive == true && _statuetteBActive == true && _statuetteCActive == true)
             {
                 _statuetteActivateurCompletAnimator.SetBool("PuzzleTermine", true);
+                _murActivationSon.SetActive(true);
             }
         }
 
