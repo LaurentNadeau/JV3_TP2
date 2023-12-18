@@ -15,6 +15,13 @@ public class StatuettePuzzleFinale : MonoBehaviour
     //[SerializeField] private GameObject _statuetteDansInventaire2;
     //[SerializeField] private GameObject _statuetteDansInventaire3;
 
+    [Header("Statuettes XR interactible.")]
+    [Space(5)]
+
+    [SerializeField] private GameObject _statuetteA;
+    [SerializeField] private GameObject _statuetteB;
+    [SerializeField] private GameObject _statuetteC;
+
     [Header("Trigger (Socket) pour tenir la statuette.")]
     [Space(5)]
 
@@ -63,7 +70,9 @@ public class StatuettePuzzleFinale : MonoBehaviour
 
     void Start()
     {
-        
+        _statuetteA = GameObject.FindWithTag("Statuette 1");
+        _statuetteB = GameObject.FindWithTag("Statuette 2");
+        _statuetteC = GameObject.FindWithTag("Statuette 3");
     }
 
     // Update is called once per frame
@@ -126,7 +135,10 @@ public class StatuettePuzzleFinale : MonoBehaviour
         _RondelleActivationA.SetActive(false);
         _statuetteASocket.SetActive(false);
         _statuetteAAnimator.SetBool("degageA", true);
-        
+
+        _statuetteA.SetActive(false);
+
+
         _statuetteADansActivateur.SetActive(true);
     }
 
@@ -135,7 +147,9 @@ public class StatuettePuzzleFinale : MonoBehaviour
         _RondelleActivationB.SetActive(false);
         _statuetteBSocket.SetActive(false);
         _statuetteBAnimator.SetBool("degageB", true);
-        
+
+        _statuetteB.SetActive(false);
+
         _statuetteBDansActivateur.SetActive(true);
     }
 
@@ -144,7 +158,9 @@ public class StatuettePuzzleFinale : MonoBehaviour
         _RondelleActivationC.SetActive(false);
         _statuetteCSocket.SetActive(false);
         _statuetteCAnimator.SetBool("degageC", true);
-        
+
+        _statuetteC.SetActive(false);
+
         _statuetteCDansActivateur.SetActive(true);
     }
 
