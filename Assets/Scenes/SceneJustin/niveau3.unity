@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 6c0264b869b3a524fb018868ab3a8b1a, type: 2}
 --- !u!4 &2587425 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 410932, guid: 731670d05affd0045a25600d2045889f,
@@ -31663,6 +31663,46 @@ PrefabInstance:
       propertyPath: m_SelectActionTrigger
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3797188789458744405, guid: d8d74e723571bbc45a2e62f25b9c69d2,
+        type: 3}
+      propertyPath: m_Height
+      value: 3.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797188789458744405, guid: d8d74e723571bbc45a2e62f25b9c69d2,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797188789458744405, guid: d8d74e723571bbc45a2e62f25b9c69d2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797188789458744405, guid: d8d74e723571bbc45a2e62f25b9c69d2,
+        type: 3}
+      propertyPath: m_BaseOffset
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372016185617349381, guid: d8d74e723571bbc45a2e62f25b9c69d2,
+        type: 3}
+      propertyPath: m_CameraYOffset
+      value: 5.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467528244768259772, guid: d8d74e723571bbc45a2e62f25b9c69d2,
+        type: 3}
+      propertyPath: m_Height
+      value: 4.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467528244768259772, guid: d8d74e723571bbc45a2e62f25b9c69d2,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467528244768259772, guid: d8d74e723571bbc45a2e62f25b9c69d2,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -0.82
+      objectReference: {fileID: 0}
     - target: {fileID: 4879163631348597587, guid: d8d74e723571bbc45a2e62f25b9c69d2,
         type: 3}
       propertyPath: m_InteractionManager
@@ -31732,6 +31772,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9135753478939881083, guid: d8d74e723571bbc45a2e62f25b9c69d2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.52
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9209244056935995859, guid: d8d74e723571bbc45a2e62f25b9c69d2, type: 3}
