@@ -124,7 +124,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: e4957ab4f070c9d4da43546b2d2b8304, type: 2}
 --- !u!1 &8990712
 GameObject:
   m_ObjectHideFlags: 0
@@ -2743,7 +2743,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &888802621
 Transform:
@@ -19059,7 +19059,7 @@ Canvas:
   m_GameObject: {fileID: 124754545619026836}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 1391090421}
   m_PlaneDistance: 1.1
   m_PixelPerfect: 0
