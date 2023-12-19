@@ -1,21 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class loadSceneJustin : MonoBehaviour
 {
 
-    private levelManager _levelManager;
-    // Start is called before the first frame update
-    void Start()
-    {
-        _levelManager = levelManager.Instance;
+    public void LoadMainMenu(){
+        SceneManager.LoadScene(Scene.niveau3.ToString());
     }
 
-    // Update is called once per frame
-  
-   private void OnTriggerEnter(Collider other)
-   {
-        _levelManager.LoadAsyncScene(levelManager.Scene.niveau3);
-   }
+     public enum Scene{
+    
+
+        niveau3,
+
+     
+    }
 }

@@ -10,6 +10,7 @@ public class MainMenuUI : MonoBehaviour
     [SerializeField] Button _quitGame;
 
 
+
     private levelManager _levelmanager;
     // Start is called before the first frame update
     void Start()
@@ -17,6 +18,7 @@ public class MainMenuUI : MonoBehaviour
         _levelmanager = levelManager.Instance;
         _newGame.onClick.AddListener(StartNewGame);
         _quitGame.onClick.AddListener(QuitGame);
+        
     }
 
     private void StartNewGame(){
