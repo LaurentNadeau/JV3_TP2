@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Statuette 1
+  - Statuette 2
+  - Statuette 3
+  - MainJoueurDroite
   layers:
   - Default
   - TransparentFX
@@ -11,6 +15,9 @@ TagManager:
   - 
   - Water
   - UI
+  - Statuette 1
+  - Statuette 2
+  - Statuette 3
   - 
   - 
   - 
@@ -32,11 +39,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - XR Joueur
+  - XR Objets
   m_SortingLayers:
   - name: Default
     uniqueID: 0
